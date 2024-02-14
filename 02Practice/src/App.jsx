@@ -6,9 +6,11 @@ import { Courses } from './components/Courses'
 export const App = () => {
   return (
     <>
+      <div className='overflow-y-scroll no-scrollbar'>
       <Navbar />
       <Courses />
       <Foot />
+      </div>
     </>
   )
 }

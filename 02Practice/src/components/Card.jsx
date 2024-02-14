@@ -6,7 +6,7 @@ export const Card = (props) => {
     return (
     <>
         <div>
-            <div className="bg-amber-300 w-64 p-12 m-6 h-64 flex flex-col justify-center items-center rounded-3xl">
+            <div className="bg-amber-300 w-64 p-12 m-6 h-64 flex flex-col justify-center items-center rounded-3xl hover:bg-amber-900 cursor-pointer">
                 <h1 className="text-2xl">{prname}</h1>
                 <p className="text-lg">{para}</p>
             </div>

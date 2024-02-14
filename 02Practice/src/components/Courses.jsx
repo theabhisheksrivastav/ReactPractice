@@ -4,8 +4,8 @@ import { Card } from './Card'
 export const Courses = () => {
   return (
     <>
-        <div className="bg-amber-600 h-screen flex justify-center items-center">
-            <div className="bg-amber-100  flex  overflow-x-scroll">
+        <div className="bg-amber-600 h-svh flex justify-center items-center">
+            <div className="bg-amber-100  flex  overflow-x-scroll no-scrollbar ">
                 <Card prname="Trading" para="This course teaches basic and rules of trading"/>
                 <Card prname="Web Dev" para="This is basic WebDev course which teaches HTML/Css/Javascript"/>
                 <Card prname="React.js" para="This course teaches React.js(Vite) and basic Tailwind CSS"/>
